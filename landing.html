@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Makeup Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img 
+            src="https://burst.shopifycdn.com/photos/makeup-beauty-flatlay.jpg?width=1000&format=pjpg&exif=0&iptc=0" 
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#home-sec" class="nav-link">HOME</a>
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#benefits" class="nav-link">BENEFITS</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid" id="home-sec">
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="https://img.freepik.com/premium-photo/cosmetic-brush-color-cosmetics_921860-16812.jpg" height="400" alt="Image of Apples" />
+        </div>
+        <div class="eye-grabber">
+          <h1>NIK BEAUTY</h1>
+          <h2>
+            WELCOME !!!<br>
+            Elevate Your Beauty Game: Discover Our Makeup Delights.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+    </div>
+      <section id="about" class="sec-padding">
+        <h1 class="section-heading">ABOUT US</h1>
+        <div class="sec-content-div flexible">
+          <p>
+            At NIK BEAUTY, we believe that makeup is more than just products – it's an art form that empowers individuals to express their inner beauty and confidence. Our journey began with a passion for creativity and a deep love for enhancing natural features. We've curated a collection of meticulously crafted makeup essentials that not only adorn, but also inspire.
+          <br>
+          Founded in 2023, NIK BEAUTY was born out of a desire to create a space where makeup enthusiasts, novices, and professionals alike could find a haven of quality, innovation, and self-expression. Our founder, Nikita Singh, embarked on this journey after years of honing skills as a makeup artist, recognizing the transformative power of cosmetics.
+          </p>
+          <img src="C:\Users\nikit\Downloads\makeup.jpg" width="900" height="500" alt="makeup pic" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="C:\Users\nikit\Downloads\foundation.jpeg" height="180" alt="photo of amber apples" />
+            <h4>FOUNDATION</h4>
+            <p>
+              Foundation is a liquid, cream, or powder makeup applied to the face and neck to create an even, uniform color to the complexion, cover flaws and, sometimes, to change the natural skin tone. 
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="C:\Users\nikit\Downloads\concealer.jpeg" height="180"
+              alt="photo of american trel apples"
+            />
+            <h4>CONCEALER</h4>
+            <p>
+              Concealer is similar to foundation except it's generally thicker and hides dark circles, age spots, blemishes and more by hiding pigments and blending these imperfections into the skin. 
+            </p>
+          </div>
+          <div class="tile">
+            <img src="C:\Users\nikit\Downloads\mascara.jpg"  height="180" alt="photo of red delicious apple" />
+            <h4>MASCARA</h4>
+            <p>
+              Mascara is a cosmetic commonly used to enhance the upper and lower eyelashes. It is used to darken, thicken, lengthen, and/or define the eyelashes.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="C:\Users\nikit\Downloads\eyeliner.jpeg" height="180" alt="photo of Maharaej apples" />
+            <h4>EYE LINER</h4>
+            <p>
+              Eyeliners are products that apply color to the area around the eyes to accent and highlight appearance of the eyes. Eyeliners are used to emphasize the eyelids and/or to change the perceived shape of the eyes.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="C:\Users\nikit\Downloads\eyeshadow.jpg"  height="180" alt="photo of Hazratbael apples" />
+            <h4>EYE SHADOW</h4>
+            <p>
+              a colored cream or powder that is put around the eyes to make them look larger or more attractive. 
+            </p>
+          </div>
+          <div class="tile">
+            <img src="C:\Users\nikit\Downloads\lipstick.jpeg" height="180" alt="photo of Golden Delicious apples" />
+            <h4>LIPSTICK</h4>
+            <p>
+              Lipstick is a cosmetic product used to apply coloration and texture to lips, often made of wax and oil. Different pigments are used to produce color, and minerals such as silica may be used to provide texture.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="container-fluid" id="benefits">
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">BENEFITS</h3>
+        <div class="sec-content-div flexible">
+          <iframe
+            id="video"
+            width="560"
+            title="TUTORIAL OF MAKEUP"
+            height="315"
+            src="https://www.youtube.com/embed/8uQ8fv8y5Vg?si=sqLkrPj4WavTGKtG"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      </div>
+      <div class="container-fluid" id="contact">
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </div>
+    </main>
+    <footer>
+      Copyright 2023 by nobody.
+								All rights reserved.
+    </footer>
+  </body>
+</html>
